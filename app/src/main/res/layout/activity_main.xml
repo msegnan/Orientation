@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensor Manager Demo"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/azimut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azimut:"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/pitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pitch:"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll:"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
